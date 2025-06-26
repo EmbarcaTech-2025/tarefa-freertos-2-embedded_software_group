@@ -158,7 +158,7 @@ static void mqtt_connection_cb_and_subscribe(mqtt_client_t *client, void *arg, m
     }
 }
 
-void mqtt_setup_and_subscribe(const char *client_id, const char *broker_ip, const char *user, const char *pass, Subscriber_Data *arguments_to_subscriber) {
+void mqtt_setup_and_subscribe(const char *client_id, const char *broker_ip, const char *user, const char *pass, Subscriber_t*arguments_to_subscriber) {
     ip_addr_t broker_addr;  // Estrutura para armazenar o IP do broker
     void *arg = arguments_to_subscriber->mqtt_topic;
     
