@@ -14,6 +14,8 @@ Brasilia, junho de 2025
 <!-- INSIRA O CONTEÚDO DO SEU README AQUI! -->
 
 ---
+Video demonstrativo: <a href="https://youtu.be/c2j25R0uGhg?si=M4nvGZtSzPccufPK"> freeRTOS </a><br>
+
 
 ## 📜 Licença
 GNU GPL-3.0.
